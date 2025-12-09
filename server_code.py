@@ -1,7 +1,7 @@
 from flask import Flask,request,jsonify
-app=Flask(__name__)
-
 import json,os
+
+app=Flask(__name__)
 FILE_PATH = "users.json"
 
 def load_users():
