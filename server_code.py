@@ -11,7 +11,6 @@ def load_users():
     with open(FILE_PATH, "r") as f:
         return json.load(f)
 
-
 def save_users(users):
     with open(FILE_PATH, "w") as f:
         json.dump(users, f, indent=4)
@@ -30,9 +29,7 @@ def create_user():
         "mobileNumber": data["mobileNumber"],
         "password": data["password"]
     }
-
     users.append(user)
-
     return jsonify({"message": "User created", "user": user}), 201
 
 #To Get all users details
@@ -53,7 +50,6 @@ def get_user(user_id):
 @app.route("/users/<int:user_id>", methods=["PUT"])
 def update_user(user_id):
     data = request.get_json()
-
     for user in users:
         if user["id"] == user_id:
             user["name"] = data.get("name", user["name"])
