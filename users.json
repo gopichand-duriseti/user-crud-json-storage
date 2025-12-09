@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "user1",
+    "email": "user1@example.com",
+    "mobileNumber": 9000000001,
+    "password": "pass1"
+  },
+  {
+    "id": 2,
+    "name": "user2",
+    "email": "user2@example.com",
+    "mobileNumber": 9000000002,
+    "password": "pass2"
+  },
+  {
+    "id": 3,
+    "name": "user3",
+    "email": "user3@example.com",
+    "mobileNumber": 9000000003,
+    "password": "pass3"
+  },
+  {
+    "id": 4,
+    "name": "user4",
+    "email": "user4@example.com",
+    "mobileNumber": 9000000004,
+    "password": "pass4"
+  }
+]
