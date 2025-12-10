@@ -15,7 +15,7 @@ def save_users(users):
     with open(FILE_PATH, "w") as f:
         json.dump(users, f, indent=4)
         
-#Assigning File to variable Users
+#Assigning the File to variable Users
 users = load_users() 
 
 #Adding/Creating a User
